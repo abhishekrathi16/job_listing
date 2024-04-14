@@ -26,7 +26,7 @@ const JobList = ({ jobs, currentPage, pageSize, onPageChange }) => {
           <List.Item key={job.id}>
             <div className="g">
               <div className="job-item">
-                <h3>{job.title}</h3>
+                <h3 style={{fontFamily:"Montserrat"}}>{job.title}</h3>
                 <p>{job.description}</p>
                 <p><span style={{fontWeight: 700}}>Location:</span> {job.location}</p>
                 <p><span style={{fontWeight: 700}}>Year of Experience:</span> {job.experience}</p>

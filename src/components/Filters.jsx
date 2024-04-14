@@ -26,7 +26,7 @@ const Filters = ({ onFilter }) => {
         </Select>
       </Form.Item>
       {/* Experience filter */}
-      <Form.Item name="experience" label="Years of Experience">
+      <Form.Item name="experience" label="Years of Experience" style={{fontWeight:600, color:"#fff", fontFamily:"Montserrat"}}>
         <Select placeholder="Select Experience">
           <Option value="0+">0+</Option>
           <Option value="1+">1+</Option>
@@ -36,7 +36,7 @@ const Filters = ({ onFilter }) => {
         </Select>
       </Form.Item>
       {/* Category type */}
-      <Form.Item name="category" label="Category">
+      <Form.Item name="category" label="Category" style={{fontWeight:600, color:"#fff", fontFamily:"Montserrat"}}>
         <Select placeholder="Select category">
           <Option value="Software Developer">Software Developer</Option>
           <Option value="Frontend Engineer">Frontend Engineer</Option>
@@ -52,7 +52,7 @@ const Filters = ({ onFilter }) => {
         </Select>
       </Form.Item>
       {/* Employment Type */}
-      <Form.Item name="type" label="Employment Type">
+      <Form.Item name="type" label="Employment Type" style={{fontWeight:600, color:"#fff", fontFamily:"Montserrat"}}>
         <Select placeholder="Select employment type">
           <Option value="Full-time">Full-time</Option>k
           <Option value="Internship">Internship</Option>
