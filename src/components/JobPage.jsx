@@ -91,8 +91,35 @@ const jobsData = [
     title: "Fullstack Engineer",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     location: "Chennai, Tamil Nadu, India",
+    experience: "1+",
+    type: "Full-time",
+    category: "Fullstack Engineer",
+  },
+  {
+    id: 11,
+    title: "iOS Developer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    location: "Gurgaon, Haryana, India",
     experience: "2+",
     type: "Full-time",
+    category: "iOS Developer",
+  },
+  {
+    id: 12,
+    title: "Backend Engineer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    location: "Mumbai, Maharashtra, India",
+    experience: "2+",
+    type: "Internship",
+    category: "Backend Engineer",
+  },
+  {
+    id: 13,
+    title: "Fullstack Engineer",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    location: "New Delhi, Delhi, India",
+    experience: "1+",
+    type: "Internship",
     category: "Fullstack Engineer",
   },
 ];
@@ -147,7 +174,16 @@ const JobPage = () => {
       <div style={{ padding: "20px" }}>
         <h1 style={{ paddingBottom: "10px" }}>Job Listings</h1>
         <Filters onFilter={handleFilter} />
-        <h2 style={{fontFamily:"Montserrat", color:"white", textAlign:"center", margin:"50px 0px"}}>Available Jobs</h2>
+        <h2
+          style={{
+            fontFamily: "Montserrat",
+            color: "white",
+            textAlign: "center",
+            margin: "50px 0px",
+          }}
+        >
+          Available Jobs
+        </h2>
         <JobList
           jobs={filteredJobs}
           currentPage={currentPage}
