@@ -6,24 +6,14 @@
   color: white;
   font-weight: bold;
   font-size: 18px;
+  cursor: none;
+  pointer-events: none;
 }
-
-.contact {
-  float: right;
-}
-
-/* .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    flex-direction: row;
-} */
 
 .ant-menu-horizontal {
   display: flex;
-  justify-content: space-between; /* Logo on left, Contact Us on right */
-  padding: 0px 24px;
+  justify-content: space-between;
+  padding: 0px 35px;
   align-items: center;
   height: 100%;
 }
@@ -32,7 +22,7 @@
   margin: 0 35px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1224px) {
   .navbar .ant-menu-horizontal .ant-menu-item {
     margin: 10px 0;
   }

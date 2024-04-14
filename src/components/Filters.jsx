@@ -11,10 +11,10 @@ const Filters = ({ onFilter }) => {
   return (
     <Form onFinish={onFinish} layout="vertical">
     {/* location filter */}
-      <Form.Item name="location" label="Location">
+      <Form.Item name="location" label="Location" >
       <Select placeholder="Select Location">
           <Option value="Remote">Remote</Option>
-          <Option value="New Delhi, India">New Delhi, Delhi, India</Option>
+          <Option value="New Delhi, Delhi, India">New Delhi, Delhi, India</Option>
           <Option value="Chennai, Tamil Nadu, India">Chennai, Tamil Nadu, India</Option>
           <Option value="Hyderabad, Telangana, India">Hyderabad, Telangana, India</Option>
           <Option value="Bangalore, Karnataka, India">Bangalore, Karnataka, India</Option>

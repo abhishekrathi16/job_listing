@@ -147,7 +147,7 @@ const JobPage = () => {
       <div style={{ padding: "20px" }}>
         <h1 style={{ paddingBottom: "10px" }}>Job Listings</h1>
         <Filters onFilter={handleFilter} />
-        <h2>Available Jobs</h2>
+        <h2 style={{fontFamily:"Montserrat", color:"white", textAlign:"center", margin:"50px 0px"}}>Available Jobs</h2>
         <JobList
           jobs={filteredJobs}
           currentPage={currentPage}

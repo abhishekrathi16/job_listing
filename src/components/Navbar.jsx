@@ -12,9 +12,8 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      {/* <div className="logo"> Company Logo</div> */}
       <Menu mode="horizontal" theme="dark" className="custom-navbar">
-        <Menu.Item key="logo" className="logo">
+        <Menu.Item key="logo" className="logo" disabled>
           Company Logo
         </Menu.Item>
         <Menu.Item key="home" icon={<HomeOutlined />}>

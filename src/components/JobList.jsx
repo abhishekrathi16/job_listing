@@ -28,10 +28,10 @@ const JobList = ({ jobs, currentPage, pageSize, onPageChange }) => {
               <div className="job-item">
                 <h3>{job.title}</h3>
                 <p>{job.description}</p>
-                <p>Location: {job.location}</p>
-                <p>Years of Experience: {job.experience}</p>
-                <p>Type: {job.type}</p>
-                <p>Category: {job.category}</p>
+                <p><span style={{fontWeight: 700}}>Location:</span> {job.location}</p>
+                <p><span style={{fontWeight: 700}}>Year of Experience:</span> {job.experience}</p>
+                <p><span style={{fontWeight: 700}}>Type:</span> {job.type}</p>
+                <p><span style={{fontWeight: 700}}>Category:</span> {job.category}</p>
                 <Button type="primary" htmlType="submit">
                   Apply
                 </Button>
