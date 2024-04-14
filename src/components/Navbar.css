@@ -1,0 +1,29 @@
+.custom-navbar {
+  background-color: transparent;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: none;
+  pointer-events: none;
+}
+
+.ant-menu-horizontal {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 35px;
+  align-items: center;
+  height: 100%;
+}
+
+.ant-menu-horizontal .ant-menu-item {
+  margin: 0 35px;
+}
+
+@media (max-width: 1224px) {
+  .navbar .ant-menu-horizontal .ant-menu-item {
+    margin: 10px 0;
+  }
+}
